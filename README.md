@@ -8,6 +8,8 @@
 - 목적: Unity를 활용하여 플레이 가능한 플랫포머 게임을 개발
 - 특징: Angvik에서 영감을 받아 다양한 적, 맵, 난이도를 제공하는 도전적인 게임 플레이 제공
 
+- 유료 에셋 사용으로 스크립트 파일만 올립니다. 또한, 모든 스크립트가 아닌 주요 스크립트 파일만 올립니다.
+
 # 👨‍👩‍👦‍👦 팀원 구성
 | 장대훈 | 손민규 | 임동현 | 김경록 |
 | --- | --- | --- | --- |
@@ -39,13 +41,12 @@
 - 프로그래밍 언어: C#
 - 버전 관리 및 협업: GitHub, Notion
 
-
 # 🧑‍💻 구현한 몬스터 AI 및 코드 설명
 ![prototype](https://github.com/user-attachments/assets/e14b57f7-f893-45bb-bfdf-5d53aad08bdf)
 
 `위 사진은 프로토타입에 작성된 최종본입니다. 이 외의 몬스터들과 함정들은 위 사진 속 몬스터들을 기반으로 제작되었습니다. 주요 동작은 동일하며, 애니메이터 및 애니메이션 클립과 같은 요소만 다릅니다. 따라서 이 문서에서는 공통된 동작을 구현하는 기반 몬스터들에 대한 설명을 중심으로 다룹니다.`
 
-기반이 되는 주요 스크립트 파일 설명
+### 기반이 되는 주요 스크립트 파일 설명
 - **DetectionZone.cs** - 적 감지 시스템 관련 코드 (플레이어를 감지하고 특정 동작을 수행)
 - **AnimationStrings.cs** - 애니메이션 관련 문자열 관리 코드 (애니메이터 상태 전환에 활용)
 - **EnemyBase.cs** - 적 AI의 기본 클래스 (모든 적 캐릭터의 공통 로직 포함)
@@ -91,3 +92,12 @@
 6. 물리 및 충돌 시스템
     - `TouchingDirections.cs`: 바닥 및 벽 감지를 통한 충돌 처리
     - `Raycast`를 활용한 지형 감지 및 AI 행동 제어
+
+# 📷 Screenshot
+![play1](https://github.com/user-attachments/assets/35b7d868-762f-48be-9299-ddbd2843a53b)
+
+![play2](https://github.com/user-attachments/assets/77d0ccae-c466-43e1-9bce-f5af33f29d2d)
+
+![paly3](https://github.com/user-attachments/assets/e425a26f-2bc3-4267-9e33-7db3c63a9cfe)
+
+![play4](https://github.com/user-attachments/assets/289f97e9-a6b9-430a-b9b6-5981dce8b611)
