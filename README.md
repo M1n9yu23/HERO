@@ -50,8 +50,8 @@
 ### 기반이 되는 주요 스크립트 파일 설명
 - **DetectionZone.cs** - 적 감지 시스템 관련 코드 (플레이어를 감지하고 특정 동작을 수행)
 - **AnimationStrings.cs** - 애니메이션 관련 문자열 관리 코드 (애니메이터 상태 전환에 활용)
-- **EnemyBase.cs** - 적 AI의 기본 클래스 (모든 적 캐릭터의 공통 로직 포함)
-- **EnemyBaseMove.cs** - 적의 이동 관련 코드 (적별 이동 방식 및 AI 적용)
+- **EnemyBase.cs** - 몬스터 AI의 기본 클래스 (모든 몬스터 캐릭터의 공통 로직 포함)
+- **EnemyBaseMove.cs** - 몬스터의 이동 관련 코드 (몬스터별 이동 방식 및 AI 적용)
 - **SetBoolBehaviour.cs** - 애니메이션 관련 Bool 값 조작 코드 (상태 머신에서 애니메이션 전환 제어)
 - **SnakeBall.cs** - 투사체 관련 코드 (Snake 몬스터가 발사하는 오브젝트 및 타겟 추적 기능 포함)
 - **TouchingDirections.cs** - 몬스터의 충돌 감지 및 방향 관련 코드 (벽, 바닥, 천장 감지)
